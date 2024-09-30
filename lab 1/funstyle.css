@@ -1,0 +1,30 @@
+body{
+    background-color: purple;
+}
+.main{
+    background-image: linear-gradient(to right top,#88f91e 0%, #16A085 100%);
+    text-align: center;
+    margin-left: 27%;
+    width: 700px;
+    height: 700px;
+    border-radius: 6%;
+    box-shadow:5px 5px 25px 10px darkslategray;
+}
+.shit{
+    background-image: linear-gradient(to left top, #f32170, #ff6b08, #cf23cf, #eedd44);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 15%;
+    width: 500px;
+    height: 500px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 25px 10px black;
+}
+h1{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20%;
+    font-style: italic;
+    text-shadow: 0 0 10px black;
+}
