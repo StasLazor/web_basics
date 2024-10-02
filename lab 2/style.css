@@ -1,25 +1,17 @@
 body{
     background-image: linear-gradient(to left, rgb(183, 0, 255) , rgb(8, 119, 246));
 }
-.font{
+.main{
+    text-align: center;
     color: white;
-    font-size: 160%;
-    margin-left: 8%;
+    font-size: 160%;    
     text-shadow: 2px 2px black;
 }
 a{
     color: white;
 }
-.img1{
-    border-radius: 7%;
-    box-shadow: 3px 3px 6px 15px gold;
-    float: right;
-    margin-right: 10%;
-}
-.clearfix{
-    clear: both;
-}
 .img2{
+    box-shadow: 3px 3px 6px 15px rgb(255, 115, 0);
     margin-top: 4%;
     margin-left: 4%;
     border-radius: 50%;
