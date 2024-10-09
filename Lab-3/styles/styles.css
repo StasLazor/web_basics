@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right, rgb(131, 58, 180) , rgb(253, 29, 29), rgb(252, 176, 69));
+}
+i, em, span, b, strong {
+    color: orange;
+    text-decoration: underline;
+}
+ol, ul {
+    border: 1px solid lightcoral;
+    width: 250px;
+    overflow: hidden;
+}
+h1{
+    color: orange;
+    font-size: 200%;
+}
+h2{
+    color: white;
+    font-size: 200%;
+}
+li, p, a{
+    color: white;
+    font-size: 110%;
+}
+.img1{
+    float: right;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 20px white;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.main{
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.clearfix{
+    clear: both;
+}
