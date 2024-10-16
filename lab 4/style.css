@@ -1,0 +1,87 @@
+
+body {
+    background-color: #6a5acd; /* Світло-фіолетовий фон */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* М'який фіолетовий колір */
+    margin-bottom: 20px;
+    position: relative;
+    left: -50px; /* Зміщення заголовка вліво */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #5a2b8a; /* Трохи темніший фіолетовий */
+}
+
+input[type="text"], input[type="date"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b19cd9; /* Легкий фіолетовий відтінок */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.buttons {
+    justify-content: space-between;
+}
+
+button {
+    background-color: #8a2be2; /* Фіолетовий колір кнопки */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%;
+}
+
+button[type="reset"] {
+    background-color: #9370db; /* Світліший фіолетовий для кнопки очистки */
+}
+
+button:hover {
+    background-color: #7b1fa2; /* Темніший відтінок для кнопок при наведенні */
+}
+
+button[type="reset"]:hover {
+    background-color: #6a5acd;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+.picture-container {
+    margin-top: 20px;
+    width: 100%; /* Ширина контейнера для зображення */
+    text-align: center; /* Центрування зображення */
+}
+
+.picture-container img {
+    max-width: 100%; /* Зображення адаптується до ширини екрану */
+    height: auto;
+}
