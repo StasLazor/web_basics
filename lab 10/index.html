@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+      <title>Піца Станіславський</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand hidden-xs" href="#myPage"><img src="pizza_logo.png" width="30" height="30"></a>
+                  <a class="navbar-brand" href="#myPage">Піца Станіславський</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#menu">МЕНЮ</a></li>
+                      <li><a href="#contact">КОНТАКТИ</a></li>
+                      <li><a href="#location">ЛОКАЦІЯ</a></li>
+                      <li><a href="#about">ПРО НАС</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+<header id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Індикатори -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Слайд меню -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="pizza1.jpg" alt="Pizza1" width="1850" height="700">
+        <div class="carousel-caption">
+          <h3>Справжня Італійська Піца</h3>
+          <p>Наш піцайоло є сертифікованим піцайолом Associazione Pizzaiuoli Napoletani (Асоціація неаполітанських виробників піци)</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="dough.jpg" alt="Dough" width="1850" height="700">
+        <div class="carousel-caption">
+          <h3>Щодня свіжоприготована</h3>
+          <p>Ми даємо всьому тісту піднятися протягом 24-48 годин, в результаті виходить дуже легка та легкозасвоювана піца. (Жодного здуття живота після!)</p>
+          <p>Ми використовуємо виключно борошно 00 Caputo з Італії та 100% італійську оливкову олію першого віджиму.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="pizza2.jpg" alt="Pizza2" width="1850" height="700">
+        <div class="carousel-caption">
+          <h3>Інгредієнти найвищої якості</h3>
+          <p>Ми пропонуємо моцарелу буйвола (Mozzarella di Bufala Campana D.O.P.), імпортовану з регіону навколо Неаполя та Сан-Марцано D.O.P. помідори</p>
+        </div>      
+      </div>
+      
+      <div class="item">
+        <img src="oven.jpg" alt="Oven" width="1850" height="700">
+        <div class="carousel-caption">
+          <h3>Піч на дровах</h3>
+          <p>Ми готуємо всю піцу в печі Mario Acunto 850 градусів, імпортованої з Неаполя.</p> 
+          <p>Ми готуємо піцу після вашого замовлення, тому ваш продукт ніколи не розігрівається. (Однак він добре розігрівається вдома.)</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Стрілочки на слайдах -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Попередній</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Наступний</span>
+    </a>
+</header>
+
+<!-- Меню піци -->
+<section id="menu" class="bg-1">
+  <div class="container">
+    <h3 class="text-center slideanimate">МЕНЮ ПІЦИ</h3>
+    <p class="text-center slideanimate">Ми приготуємо вам справжню італійську піцу.<br> Виберіть свою піцу нижче та замовте її на збір!</p>
+    
+    <div class="row display-flex text-center">
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Margherita.jpg" alt="Margherita">
+          <p><strong>Margherita - ₴350</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Домашня моцарела, Базилік, Пекоріно ромондо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Bianca.jpg" alt="Bianca">
+          <p><strong>Bianca - ₴325</strong></p>
+          <p data-toggle="tooltip" title="Домашня моцарелла, Рікотта, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Marinara.jpg" alt="Marinara">
+          <p><strong>Marinara - ₴500</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Орігано, Часник, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Montanara.jpg" alt="Montanara">
+          <p><strong>Montanara - ₴500</strong></p>
+          <p data-toggle="tooltip" title="Легко випечене тісто, Домашній маринара соус, Домашня моцарелла, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="AllaVodka.jpg" alt="AllaVodka" >
+          <p><strong>Alla Vodka - ₴450</strong></p>
+          <p data-toggle="tooltip" title="Горілка соус, Домашня моцарелла, Базилік, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Melanzane.jpg" alt="Melanzane">
+          <p><strong>Melanzane - ₴524</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Домашня моцарелла, Яйця, Рікотта, Прошутто">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="Pesto.jpg" alt="Pesto">
+          <p><strong>Pesto - ₴400</strong></p>
+          <p data-toggle="tooltip" title="Домашнє песто, Домашня моцарелла, Пепероні, Пекоріно романдо (Без оливкової олії)">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="BroccoliRabeSausageAsiago.jpg" alt="Broccoli Rabe Sausage">
+          <p><strong>Broccoli Sausage  - ₴534</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Домашня моцарелла, Соус із броколі, Прошутто, Базилік, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="FigArugulaAndMascarpone.jpg" alt="Fig, Arugula, and Mascarpone">
+          <p><strong>Fig & Mascarpone - ₴350</strong></p>
+          <p data-toggle="tooltip" title="Домашня моцарелла, Прошутто, Маскарпоне, Пепероні, Шпинат">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="MeatballWithRicotta.jpg" alt="Meatball with Ricotta">
+          <p><strong>Meatball Ricotta  - ₴500</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Домашня моцарелла, Домашні м'ясні кульки, Рікотта, Базилік, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="MargheritaDOP.jpg" alt="Margherita DOP">
+          <p><strong>Margherita D.O.P. - ₴625</strong></p>
+          <p data-toggle="tooltip" title="Імпортний томатний соус, Моцарела від компанії D.O.P., Базилік, Пекоріно романдо">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="LaSaporita.jpg" alt="Saporita">
+          <p><strong>Saporita - ₴800</strong></p>
+          <p data-toggle="tooltip" title="Домашній Часничний соус, Моцарела від компанії D.O.P., Яйця, Песто від компанії E.V.O.O.">Інформація про начинку <i class="fa fa-info-circle"></i></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Замовити</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  
+  <section class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Замовлення-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-shopping-cart"></span>Замовити</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group"><label for="qty">Кількість</label>
+              <input type="number" class="form-control" id="qty" placeholder="Скільки потрібно?">
+            </div>
+            <div class="form-group"><label>РОЗМІР</label>
+              <div class="radio">
+                <label class="radio-inline"><input type="radio" name="optradio">Мала 25 см</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Середня 30 см</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Велика 38 см</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="sel1">БОРТИК</label>
+                <select class="form-control" id="sel1">
+                  <option>Класичний</option>
+                  <option>Тонкий бортик</option>
+                  <option>Сирний бортик</option>
+                </select>
+            </div>
+              <button type="submit" class="btn btn-block">ДОДАТИ 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Відмінити
+          </button>
+          <p>Потрібна <a href="#">допомога?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Відгуки -->
+<section id="contact" class="container">
+  <h3 class="text-center slideanim">Контакти</h3>
+  <p class="text-center slideanim"><em>Залиш відгук!</em></p>
+
+  <div class="row">
+    <article class="col-md-4">
+      <p class="slideanim">Подзвони та запропонуй свій рецепт</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-map-marker"></span>Університетська 14, Ужгород, Україна</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-phone"></span>Номер телефону: +380506767657</p>
+      <p class="slideanim"><span class="glyphicon glyphicon-envelope"></span>Email: stanislavskiy_pizza@pizza.com</p>
+    </article>
+    <article class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="name" name="name" placeholder="Ім'я" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        </div>
+          <textarea class="form-control slideanim" id="subject" name="subject" placeholder="Предмет" rows="1"></textarea>
+          <br>
+          <textarea class="form-control slideanim" id="comments" name="comments" placeholder="Коментар" rows="5"></textarea>
+          <br>
+        <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right slideanim" type="submit">Відправити</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+</body>
+</html>
