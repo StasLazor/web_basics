@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.addresses-wrapper {
+  display: flex;
+  gap: 1%;
+  padding: 20px;
+  flex-wrap: wrap; /* Додаємо, щоб картки переносились на новий рядок */
+}
+
+.address {
+  width: 32%;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-style: normal;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.address:nth-child(1) {
+  background-color: #F0FFC1;
+  margin-right: 1%;
+}
+
+.address:nth-child(2) {
+  background-color: #FFE4C4;
+  margin-right: 1%;
+}
+
+.address:nth-child(3) {
+  background-color: #B6FFDA;
+}
+
+.address:hover {
+  background-color: #F3F3F3;
+}
+
+.address__icon {
+  width: 70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.address__header {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.address__delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #FF8E50;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 20px;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px 0 0 10px;
+  transition: background-color 0.3s;
+}
+
+.address__delete-btn:hover {
+  background-color: #FFD050;
+}
+
+.address__status {
+  width: 32px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+@media (max-width: 767px) {
+  .addresses-wrapper {
+    flex-direction: column; /* Встановлюємо картки у вертикальне розташування */
+  }
+
+  .address {
+    width: 100%; /* На всю ширину контейнера */
+    margin-bottom: 20px; /* Відступ між картками */
+  }
+}  
